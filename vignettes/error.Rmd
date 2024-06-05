@@ -1,0 +1,23 @@
+---
+title: "error"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{error}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+This is meant for error.
+
+```{r error = TRUE}
+print("ready!")
+stop("can't go.")
+```
+
