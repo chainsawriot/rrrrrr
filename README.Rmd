@@ -15,6 +15,8 @@ knitr::opts_chunk$set(
 
 # rrrrrr
 
+<!-- FAKE -->
+
 <!-- badges: start -->
 <!-- badges: end -->
 
